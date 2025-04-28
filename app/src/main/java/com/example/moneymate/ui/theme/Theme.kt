@@ -1,5 +1,5 @@
 // Theme.kt - Replace your existing theme setup
-package com.example.todolist.ui.theme
+package com.example.moneymate.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -16,6 +16,22 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+
+
+
+val Green40 = Color(0xFF4CAF50)        // Hijau
+val Red40 = Color(0xFFF44336)          // Merah
+val PrimaryBlue = Color(0xFF2196F3)    // Biru utama
+val SecondaryBlue = Color(0xFF64B5F6)  // Biru sekunder
+// Tambahan warna custom
+val Blue = Color(0xFF2196F3)
+val BlueDark = Color(0xFF1565C0)
+val BlueLight = Color(0xFF64B5F6)
+val ModerateColor = Color(0xFF7986CB)
+val ImportantColor = Color(0xFFD32F2F)
+val Gray800 = Color(0xFF424242)
+val Gray600 = Color(0xFF757575)
+
 
 private val DarkColorScheme = darkColorScheme(
     primary = Blue,
@@ -50,7 +66,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun ToDoListTheme(
+fun moneymateTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit

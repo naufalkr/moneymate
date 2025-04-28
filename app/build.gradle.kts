@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.todolist"
+    namespace = "com.example.moneymate"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.todolist"
+        applicationId = "com.example.moneymate"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
